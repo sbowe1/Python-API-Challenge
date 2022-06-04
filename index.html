@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>API Challenge</title>
+</head>
+
+<body>
+    <h1>Python APIs</h1>
+    <hr>
+
+    <section>
+    <h2>Description</h2>
+    <p>
+        The OpenWeatherMap API was used to obtain weather information for a 
+        randomly selected list of coordinates. Based on my idea of ideal weather 
+        conditions, the list of locations narrowed down to 8 locations and the 
+        nearest hotels to each location were identified via the Google Maps API.
+        With the gmaps module, heatmaps were made to show the placement of the 
+        large list of locations (weighted by percent humidity), along with markers 
+        containing the hotel name, city, and country of the 8 ideal locations.
+    </p>
+    </section>
+
+    <section>
+    <h2>Figures</h2>
+    <h3>Weather Analysis</h3>
+    <figure>
+        <img src="/WeatherPy/Output/LatitudeMaxTemperature.png"
+            alt="Latitude vs. Max Temperature">
+        <figcaption>Scatter plot comparing city latitude and maximum temperature</figcaption>
+    </figure>
+    <figure>
+        <img src="/WeatherPy/Output/LatitudeHumidity.png"
+            alt="Latitude vs. Humidity">
+        <figcaption>Scatter plot comparing city latitude and humidity</figcaption>
+    </figure>
+    <figure>
+        <img src="/WeatherPy/Output/LatitudeCloudiness.png"
+            alt="Latitude vs. Cloudiness">
+        <figcaption>Scatter plot comparing city latitude and cloudiness</figcaption>
+    </figure>
+    <figure>
+        <img src="/WeatherPy/Output/LatitudeWindSpeed.png"
+            alt="Latitude vs. Wind Speed">
+        <figcaption>Scatter plot comapring city latitude and wind speed</figcaption>
+    </figure>
+    <h3>Heatmaps</h3>
+    <figure>
+        <img src="/VacationPy/Heatmaps/HeatmapMarkers.png"
+            alt="Heatmap with Markers">
+        <figcaption>Heatmap of hotels at locations with ideal weather conditions</figcaption>
+    </figure>
+    </section>
+</body>
+</html>
